@@ -1,0 +1,35 @@
+html, body {
+    height: 100%;
+}
+
+.bg { 
+    background-image: url(../images/owl.jpg);
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-text{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h1 {
+    font-size: 4.5em;
+    font-family: 'Patrick Hand', Serif;
+    text-align: center;
+    color: #565656;
+    border: 5px solid #565656;
+    padding: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: #565656;
+}
